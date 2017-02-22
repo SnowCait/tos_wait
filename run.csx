@@ -6,6 +6,7 @@ using System;
 using CoreTweet;
 using HtmlAgilityPack;
 
+// myTimer: 0 */10 * * * *
 public static async Task Run(TimerInfo myTimer, TraceWriter log)
 {
     //log.Info($"C# Timer trigger function executed at: {DateTime.Now}");
